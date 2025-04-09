@@ -11,6 +11,9 @@
 ```sh
 docker compose -f docker-compose.yml up --build
 ```
+```sh
+należy utworzyć plik .env w głownym katalogu z SECRET_KEY
+```
 ### 1.1 Jeżeli projekt budowany jest pierwszy raz, po uruchomieniu bazy danych należy wywołać
 ```sh
 docker exec -it backend python manage.py makemigrations                                    
