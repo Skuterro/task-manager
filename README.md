@@ -20,7 +20,7 @@ Dostęp do aplikacji
 ```
 http://localhost:8000/tasks/
 ```
-### 1.3 Tworzymy admina (przyda się do testowania niektórych endpointów)
+### 1.2 Tworzymy admina (przyda się do testowania niektórych endpointów)
 ```sh
 docker-compose exec backend python manage.py createsuperuser
 ```
