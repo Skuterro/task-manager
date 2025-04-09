@@ -7,12 +7,12 @@
 - [Filtrowanie historii i zadań](#filtrowanie-historii-i-zadań)
 
 ## Uruchomienie
-#### 1.Budowanie projektu 
-```sh
-docker compose -f docker-compose.yml up --build
-```
+#### 1.Budowanie projektu
 ```sh
 należy utworzyć plik .env w głownym katalogu z SECRET_KEY
+```
+```sh
+docker compose -f docker-compose.yml up --build
 ```
 ### 1.1 Jeżeli projekt budowany jest pierwszy raz, po uruchomieniu bazy danych należy wywołać
 ```sh
