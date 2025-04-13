@@ -5,6 +5,7 @@
 - [Zarządzanie zadaniami](#zarządzanie-zadaniami)
 - [Historia zadań](#historia-zadań)
 - [Filtrowanie historii i zadań](#filtrowanie-historii-i-zadań)
+- [Testy](#testy)
 
 ## Uruchomienie
 #### 1.Budowanie projektu
@@ -323,4 +324,17 @@ curl -X GET 'http://localhost:8000/history/?task=&name__icontains=&assigned_to=3
         "changed_by": 3
     }
 ]
+```
+##Testy
+Aby uruchomić lokalnie testy musimy stworzyć wirtualne środowisko
+```sh
+Python -m venv venv
+```
+zainstalować wymagane biblioteki
+```sh
+pip install -r requirements.txt
+```
+oraz w głownym folderze aplikacji wpisać komendę:
+```sh
+pytest
 ```
